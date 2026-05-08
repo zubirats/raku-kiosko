@@ -1,0 +1,79 @@
+{
+  "welcome": {
+    "title": "Hola 👋",
+    "subtitle": "¿Qué se te antoja hoy?",
+    "tapToStart": "Toca para ordenar",
+    "scanRewards": "Escanea tu Raku Rewards",
+    "selectLanguage": "Selecciona tu idioma",
+    "closed": "Vuelve pronto",
+    "hours": "Horario: 9:30am - 7:30pm"
+  },
+  "menu": {
+    "title": "Raku Café",
+    "search": "Buscar",
+    "cart": "Carrito",
+    "empty": "Tu carrito está vacío",
+    "soldOut": "Agotado",
+    "barOnly": "Disponible solo en barra"
+  },
+  "item": {
+    "add": "Agregar",
+    "quantity": "Cantidad",
+    "modifiers": "Personaliza tu orden",
+    "addToCart": "Agregar al carrito"
+  },
+  "cart": {
+    "title": "Tu orden",
+    "subtotal": "Subtotal",
+    "tax": "IVA (0%)",
+    "total": "Total",
+    "pay": "Pagar",
+    "limitExceeded": "El máximo por transacción es $2,000. Pasa a caja para montos mayores.",
+    "empty": "Agrega algo delicioso a tu orden"
+  },
+  "payment": {
+    "title": "Procesando pago",
+    "insertCard": "Inserta o acerca tu tarjeta en la terminal",
+    "processing": "Procesando...",
+    "cancel": "Cancelar",
+    "failed": "No pudimos procesar tu pago",
+    "goToCashier": "Pasa a caja - Tu orden"
+  },
+  "whatsapp": {
+    "title": "Recibe tu ticket",
+    "subtitle": "Ingresa tu WhatsApp para recibir tu ticket",
+    "placeholder": "55 1234 5678",
+    "send": "Enviar ticket",
+    "skip": "Saltar",
+    "confirm": "Confirma tu número",
+    "correct": "Corregir",
+    "success": "Ticket enviado"
+  },
+  "confirmation": {
+    "thanks": "¡Gracias por tu orden!",
+    "yourNumber": "Tu número",
+    "notification": "Te avisamos por WhatsApp cuando esté lista",
+    "pointsEarned": "puntos acumulados",
+    "newOrder": "Nueva orden",
+    "countdownPrefix": "Nueva orden en",
+    "countdownSuffix": "segundos"
+  },
+  "admin": {
+    "title": "Menú de administración",
+    "enterPin": "Ingresa el PIN",
+    "restart": "Reiniciar kiosko",
+    "shutdown": "Apagar kiosko",
+    "incorrectPin": "PIN incorrecto"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "ja": "日本語"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Intentar de nuevo",
+    "close": "Cerrar"
+  }
+}

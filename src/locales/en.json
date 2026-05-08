@@ -1,0 +1,79 @@
+{
+  "welcome": {
+    "title": "Hello 👋",
+    "subtitle": "What are you craving today?",
+    "tapToStart": "Tap to order",
+    "scanRewards": "Scan your Raku Rewards",
+    "selectLanguage": "Select your language",
+    "closed": "Come back soon",
+    "hours": "Hours: 9:30am - 7:30pm"
+  },
+  "menu": {
+    "title": "Raku Café",
+    "search": "Search",
+    "cart": "Cart",
+    "empty": "Your cart is empty",
+    "soldOut": "Sold out",
+    "barOnly": "Available at bar only"
+  },
+  "item": {
+    "add": "Add",
+    "quantity": "Quantity",
+    "modifiers": "Customize your order",
+    "addToCart": "Add to cart"
+  },
+  "cart": {
+    "title": "Your order",
+    "subtotal": "Subtotal",
+    "tax": "Tax (0%)",
+    "total": "Total",
+    "pay": "Pay",
+    "limitExceeded": "Maximum per transaction is $2,000. Please go to the cashier for larger amounts.",
+    "empty": "Add something delicious to your order"
+  },
+  "payment": {
+    "title": "Processing payment",
+    "insertCard": "Insert or tap your card on the terminal",
+    "processing": "Processing...",
+    "cancel": "Cancel",
+    "failed": "We couldn't process your payment",
+    "goToCashier": "Go to cashier - Your order"
+  },
+  "whatsapp": {
+    "title": "Get your receipt",
+    "subtitle": "Enter your WhatsApp to receive your receipt",
+    "placeholder": "55 1234 5678",
+    "send": "Send receipt",
+    "skip": "Skip",
+    "confirm": "Confirm your number",
+    "correct": "Correct",
+    "success": "Receipt sent"
+  },
+  "confirmation": {
+    "thanks": "Thank you for your order!",
+    "yourNumber": "Your number",
+    "notification": "We'll notify you on WhatsApp when it's ready",
+    "pointsEarned": "points earned",
+    "newOrder": "New order",
+    "countdownPrefix": "New order in",
+    "countdownSuffix": "seconds"
+  },
+  "admin": {
+    "title": "Admin menu",
+    "enterPin": "Enter PIN",
+    "restart": "Restart kiosk",
+    "shutdown": "Shutdown kiosk",
+    "incorrectPin": "Incorrect PIN"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "ja": "日本語"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "close": "Close"
+  }
+}

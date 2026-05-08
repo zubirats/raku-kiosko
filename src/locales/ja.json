@@ -1,0 +1,79 @@
+{
+  "welcome": {
+    "title": "こんにちは 👋",
+    "subtitle": "今日は何がお好みですか？",
+    "tapToStart": "タップして注文",
+    "scanRewards": "Raku Rewardsをスキャン",
+    "selectLanguage": "言語を選択",
+    "closed": "またのお越しを",
+    "hours": "営業時間：9:30am - 7:30pm"
+  },
+  "menu": {
+    "title": "Raku Café",
+    "search": "検索",
+    "cart": "カート",
+    "empty": "カートは空です",
+    "soldOut": "売り切れ",
+    "barOnly": "バーのみで提供"
+  },
+  "item": {
+    "add": "追加",
+    "quantity": "数量",
+    "modifiers": "カスタマイズ",
+    "addToCart": "カートに追加"
+  },
+  "cart": {
+    "title": "ご注文",
+    "subtotal": "小計",
+    "tax": "税 (0%)",
+    "total": "合計",
+    "pay": "支払う",
+    "limitExceeded": "1回の取引の上限は$2,000です。より大きな金額についてはレジへお越しください。",
+    "empty": "美味しいものをご注文に追加してください"
+  },
+  "payment": {
+    "title": "支払い処理中",
+    "insertCard": "端末にカードを挿入またはタップしてください",
+    "processing": "処理中...",
+    "cancel": "キャンセル",
+    "failed": "お支払いを処理できませんでした",
+    "goToCashier": "レジへ - ご注文"
+  },
+  "whatsapp": {
+    "title": "レシートを受け取る",
+    "subtitle": "レシートを受け取るためにWhatsAppを入力してください",
+    "placeholder": "55 1234 5678",
+    "send": "レシートを送信",
+    "skip": "スキップ",
+    "confirm": "番号を確認",
+    "correct": "修正",
+    "success": "レシート送信済み"
+  },
+  "confirmation": {
+    "thanks": "ご注文ありがとうございます！",
+    "yourNumber": "注文番号",
+    "notification": "準備ができたらWhatsAppでお知らせします",
+    "pointsEarned": "ポイント獲得",
+    "newOrder": "新しい注文",
+    "countdownPrefix": "次の注文まで",
+    "countdownSuffix": "秒"
+  },
+  "admin": {
+    "title": "管理メニュー",
+    "enterPin": "PINを入力",
+    "restart": "キオスクを再起動",
+    "shutdown": "キオスクをシャットダウン",
+    "incorrectPin": "PINが正しくありません"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "ja": "日本語"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "close": "閉じる"
+  }
+}
