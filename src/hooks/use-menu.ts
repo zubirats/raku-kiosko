@@ -82,8 +82,9 @@ export function useMenu(locale: string) {
   const categoriesQuery = useQuery({
     queryKey: ['categories', locale],
     queryFn: async () => {
-      const { data, error } = await supabase
-        .from('menu_categories')
+      // category_translations may not exist in types.ts yet; cast to any.
+      const { data, error } = await (supabase as any)
+        .from('categories')
         .select(`
           id,
           name,
