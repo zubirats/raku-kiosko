@@ -45,7 +45,7 @@ export function useMenu(locale: string) {
           kiosk_allowed,
           availability_status,
           modifiers,
-          menu_item_translations!inner(
+          menu_item_translations(
             locale,
             name,
             description
@@ -53,14 +53,16 @@ export function useMenu(locale: string) {
         `)
         .eq('restaurant_id', RESTAURANT_ID)
         .eq('kiosk_allowed', true)
-        .eq('availability_status', 'active')
-        .eq('menu_item_translations.locale', locale);
+        .eq('availability_status', 'active');
 
       if (error) throw error;
 
-      // Map translations to main item
+      // Map translations to main item — pick locale match, fallback to ES, then to base name
       return (data || []).map((item: any) => {
-        const translation = item.menu_item_translations?.[0];
+        const translations = item.menu_item_translations || [];
+        const translation =
+          translations.find((t: any) => t.locale === locale) ||
+          translations.find((t: any) => t.locale === 'es');
         return {
           id: item.id,
           name: translation?.name || item.name,
@@ -87,7 +89,7 @@ export function useMenu(locale: string) {
           name,
           parent_id,
           display_order,
-          category_translations!inner(
+          category_translations(
             locale,
             name
           )
@@ -98,7 +100,10 @@ export function useMenu(locale: string) {
       if (error) throw error;
 
       return (data || []).map((cat: any) => {
-        const translation = cat.category_translations?.[0];
+        const translations = cat.category_translations || [];
+        const translation =
+          translations.find((t: any) => t.locale === locale) ||
+          translations.find((t: any) => t.locale === 'es');
         return {
           id: cat.id,
           name: translation?.name || cat.name,
